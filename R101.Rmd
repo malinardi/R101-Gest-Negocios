@@ -1,0 +1,43 @@
+---
+title: "R 101"
+subtitle: "Introdução a Linguagem R"
+author: "Marcelo Linardi"
+date: "2025-03-06"
+output:
+  html_document:
+    toc: true
+    df_print: paged
+  html_notebook: 
+    toc: true
+    number_sections: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R 101
+
+Este ficheiro foi escrito utilizando R Markdown. Uma maneira simples de formatar códigos R para criação de documentos HTML, PDF, Word e PowerPoint. Para mais detalhes consulte <http://rmarkdown.rstudio.com>.
+
+![](images/clipboard-2497243927.png)
+
+<https://pt.r4ds.hadley.nz/>
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## Aplicações
