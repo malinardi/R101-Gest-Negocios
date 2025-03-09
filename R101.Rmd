@@ -1,12 +1,13 @@
 ---
-title: "R 101"
-subtitle: "Introdução a Linguagem R"
-author: "Marcelo Linardi"
+title: "IPAM Mestrado Gestão de Negócios"
+subtitle: "R 101 - Introdução a Linguagem R"
+author: "linkedin.com/in/marcelolinardi/"
 date: "2025-03-06"
 output:
-  html_document:
+  html_document: 
     toc: true
-    df_print: paged
+    df_print: kable
+    toc_depth: 2
   html_notebook: 
     toc: true
     number_sections: true
@@ -16,9 +17,53 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R 101
+## 1. INTRODUÇÃO
 
-Este ficheiro foi escrito utilizando R Markdown. Uma maneira simples de formatar códigos R para criação de documentos HTML, PDF, Word e PowerPoint. Para mais detalhes consulte <http://rmarkdown.rstudio.com>.
+### Por que R em Gestão de Negócios?
+
+#### 🎯 O R é uma das linguagens mais poderosas para análise de dados, estatística e visualização, sendo amplamente utilizado no mundo académico e corporativo. Mas, afinal, por que um gestor de negócios deveria aprender R?
+
+**1️⃣ Decisões baseadas em dados (Data-Driven Decision Making)**
+
+O mundo dos negócios está cada vez mais orientado por dados. O R permite:
+
+✅ Analisar grandes volumes de dados e identificar padrões.\
+✅ Criar relatórios automatizados para suportar decisões estratégicas.\
+✅ Gerar previsões de vendas, procura ou tendências de mercado.
+
+**2️⃣ Alternativa ao Excel – Mais poder e flexibilidade**
+
+O R permite fazer tudo o que o Excel faz (e muito mais) com maior precisão e eficiência. Embora o Excel seja uma ferramenta essencial, ele tem limitações quando se trata de:
+
+❌ Trabalhar com grandes quantidades de dados.\
+❌ Criar modelos estatísticos avançados.\
+❌ Automatizar processos repetitivos.
+
+**3️⃣ Visualização de Dados Profissional e Interativa.**
+
+✅ O R possui bibliotecas como ggplot2 que criam gráficos sofisticados e personalizados.
+
+✅ Pode gerar dashboards interativos com Shiny, úteis para acompanhamento de KPIs empresariais.
+
+**4️⃣ Machine Learning e Inteligência Artificial.**
+
+O R é uma excelente ferramenta para aplicar modelos preditivos e inteligência artificial em negócios:
+
+✅ Análise de sentimentos em redes sociais.\
+✅ Recomendação de produtos baseada no comportamento dos clientes.\
+✅ Deteção de fraudes em transações financeiras.
+
+**5️⃣ Open Source, Gratuito e com uma Comunidade Forte.**
+
+Diferente de softwares pagos (como SAS ou SPSS), o R é 100% gratuito e constantemente atualizado pela sua comunidade global. Além disso:\
+✅ Possui milhares de pacotes prontos para diferentes áreas de negócio.\
+✅ Tem uma enorme quantidade de recursos de aprendizagem gratuitos.
+
+O R é uma ferramenta poderosa, flexível e gratuita, permitindo que gestores tomem decisões mais informadas e automatizem tarefas complexas. Se quiseres ser um gestor que se destaca na era dos dados, o R pode ser um grande aliado!
+
+**🚀 e para sua carreira: pode ser um ótimo diferencial no currículo!**
+
+## 2. Diferenças entre R e R Studio?
 
 ![](images/clipboard-2497243927.png)
 
@@ -40,4 +85,14 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-## Aplicações
+## Transformação dos Dados
+
+O pacote
+
+<https://rstudio.github.io/cheatsheets/html/data-transformation.html#summarize-cases>
+
+```{r}
+
+```
+
+Este ficheiro foi escrito utilizando R Markdown. Uma maneira simples de formatar códigos R para criação de documentos HTML, PDF, Word e PowerPoint. Para mais detalhes consulte <http://rmarkdown.rstudio.com>.
