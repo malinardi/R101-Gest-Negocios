@@ -328,6 +328,45 @@ ggplot(dadosf, aes(x=Review, y=Global, color = Platform_Grouped)) +
   )
 ```
 
+------------------------------------------------------------------------
+
+Agora faça você mesmo!
+
+a) importe seu ficheiro:
+
+```{r}
+# importe seu ficheiro com o read_csv ou read_xsl
+
+```
+
+b) Avalie a estrutura do ficheiro:
+
+```{r}
+#use as funções do str ou do ExpData
+
+
+```
+
+c) Crie uma tabela com parámetros estatisticos:
+
+```{r}
+# abuse das funções do ExpNumStat
+
+```
+
+d) Faça uma análise exploratória visual dos dados:
+```{r}
+# crie muitos gráficos a partir de um único comando com o plot_bar para as variáveis categóricas e plot_histogram para as variáveis numéricas
+
+```
+
+e) arrisque um gráfico especial com o uso do ggplot2
+```{r}
+# abuse do ggplot2 para criar gráficos personalizados
+
+```
+
+
 **Há muito mais por explorar...**
 
 ## 4. Potencial Infinito
